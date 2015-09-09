@@ -2,3 +2,5 @@ deps/include/libmill.h
 deps/lib/
 .DS_Store
 node_modules
+dm
+test.js
