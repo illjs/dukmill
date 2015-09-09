@@ -1,4 +1,4 @@
-.PHONY: clean build
+.PHONY: clean build version
 
 ALL:
 	git submodule update --init
@@ -9,3 +9,5 @@ build:
 
 clean:
 	rm -fr build node_modules
+
+version: ; @echo $(MAKE_VERSION)
