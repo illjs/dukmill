@@ -13,8 +13,9 @@ git clone https://github.com/reqshark/dukmill
 cd dukmill
 make
 ```
-now set up a symbolic link somewhere in your bin $PATH
+now set up a symbolic link somewhere in your bin $PATH pointing to `dm`
 ```bash
+# for example, something like:
 cd /usr/local/bin
 ln -s path/to/your/dukmill/repo dm
 ```
